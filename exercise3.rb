@@ -5,11 +5,6 @@ print "Give me a number: "
 num = gets.chomp.to_i
 
 def is_even?(num)
-	if num % 2 == 0 then
-		return true
-	else
-		return false
-	end
+	return num % 2 == 0 
 end
-
 puts is_even?(num)
